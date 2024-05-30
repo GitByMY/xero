@@ -1,8 +1,8 @@
 #!/usr/bin/bash
-#@Author prince kumar
-#Date 23 dec 2020
-# Version V3.0.0
-#adding the parrto support in ravana 3.0.0 
+#@Author Manmohan Yadav
+#Date May 2024
+# Version V1
+#adding the parrto support in xero 1.5 
 #This is made only for educational purposes...
 # Satrt coding here
 # Define some color coding here
@@ -22,12 +22,12 @@ trap user_intrupt SIGTSTP
 # kill the already running proces
 user_intrupt(){
 	printf " \n ${w}\n"
-	printf " ${r}[${w}!${r}]---->>${p} Exiting Ravana2.0"
+	printf " ${r}[${w}!${r}]---->>${p} Exiting xero"
 	printf " \n"
 	sleep 1
 	exit 1
 }
-# make a function to update the ravana if any update is availble 
+# make a function to update the xero if any update is availble 
 # check for indian  ip 
 is_indian(){
 	count=$(curl -s http://ip-api.com/json/ | grep -c "India" )
@@ -45,8 +45,8 @@ up_date(){
 	echo -ne ""
 	else 
 	echo -e "\0e[36;1m New version is available .. "
-	echo -ne " updating the ravana.........."
-	git pull https://github.com/princekrvert/Ravana.git
+	echo -ne " updating the xero.........."
+	git pull https://github.com/GitByMY/xero.git
 	fi 
 	rm -rf vs > /dev/null 
 }
@@ -268,7 +268,7 @@ echo -en "\033[0;1mYou are in india so update this script manually if require..\
 else
 up_date
 fi
-# make a typewriter for ravana2.0
+# make a typewriter for xero2.0
 type_W(){
 	text=( 'S' 't' 'a' 'r' 't' 'i' 'n' 'g' ' ' 'R' 'a' 'v' 'a' 'n' 'a' )
 	for i in "${text[@]}";do
@@ -279,7 +279,7 @@ type_W(){
 #call the typewriter
 type_W
 trap user_intrupt 
-#Make a banner for Ravana2.0
+#Make a banner for xero2.0
 banner(){
 	clear
 	
