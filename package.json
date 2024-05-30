@@ -1,24 +1,24 @@
 {
-  "name": "ravana",
-  "version": "2.3.1",
-  "description": "Phishing tool for termux...",
-  "main": "ravana.sh",
+  "name": "xero",
+  "version": "1.0",
+  "description": "Open-source Phishing tool",
+  "main": "xero.sh",
   "scripts": {
-    "test": "ravana"
+    "test": "xero"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/princekrvert/Ravana.git"
+    "url": "git+https://github.com/GitByMY/xero.git"
   },
   "keywords": [
-    "Ravana",
-    "ravana",
-    "princekrvert"
+    "Xero",
+    "xero",
+    "GitByMY"
   ],
-  "author": "Prince Kumar",
+  "author": "Manmohan Yadav",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/princekrvert/Ravana/issues"
+    "url": "https://github.com/GitByMY/xero/issues"
   },
-  "homepage": "https://github.com/princekrvert/Ravana#readme"
+  "homepage": "https://github.com/GitByMY/xero#readme"
 }
