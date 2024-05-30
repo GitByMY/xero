@@ -285,8 +285,8 @@ banner(){
 	printf "
 	        
        
-        \e[0;1m XERO, MADE BY PRINCE
-        V1\e[32;1m 
+        \e[0;1m XERO, MADE BY MANMOHAN YADAV
+         V1\e[32;1m 
                                                    
 
 "
