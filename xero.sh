@@ -210,23 +210,21 @@ about_me(){
 	h_os=$(uname -o)
 	if [[( $h_os == "GNU/Linux" )]];then
 	echo ""
-	echo -e "${g}[${w}+${g}] ${y} I am prince kumar and i am a junior mechanical engineer.\n"
-	echo -e "${g}[${w}01${g}] ${p} Youtube: https://bit.ly/3sAFWqM "
-	echo -e "${g}[${w}02${g}] ${p} Instagram: https://is.gd/B8EytP "
-	echo -e "${g}[${w}03${g}] ${p} Facebook: https://bit.ly/3z49Eaa "
+	echo -e "${g}[${w}+${g}] ${y} I am Manmohan Yadav, student at SRMIST\n"
+	
 	read ab_optn
 	if [[ $ab_optn == "01" || $ab_optn == "1" ]];then
-		xdg-open https://bit.ly/3sAFWqM > /dev/null 2>&1
+		xdg-open https://bit.ly/3wsAFWqM > /dev/null 2>&1
 	elif [[ $ab_optn == "02" || $ab_optn == "2" ]];then
-		xdg-open https://is.gd/B8EytP > /dev/null 2>&1
+		xdg-open https://is.gd/B8ErytP > /dev/null 2>&1
 	elif [[ $ab_optn == "03" || $ab_optn == "3" ]];then
-		xdg-open https://bit.ly/3z49Eaa > /dev/null 2>&1
+		xdg-open https://bit.ly/3z4s9Eaa > /dev/null 2>&1
 	else 
 	echo -ne "Invalid option"
 	fi
 	else
 	echo " "
-	echo -e "${g}[${w}+${g}] ${y} I am prince kumar and i am a junior mechanical engineer.\n"
+	echo -e "${g}[${w}+${g}] ${y} I am Manmohan Yadav, student at SRMIST\n"
 	echo -e "${g}[${w}01${g}] ${p} Youtube"
 	echo -e "${g}[${w}02${g}] ${p} Instagram "
 	echo -e "${g}[${w}03${g}] ${p} Facebook"
@@ -270,7 +268,7 @@ up_date
 fi
 # make a typewriter for xero2.0
 type_W(){
-	text=( 'S' 't' 'a' 'r' 't' 'i' 'n' 'g' ' ' 'R' 'a' 'v' 'a' 'n' 'a' )
+	text=( 'S' 't' 'a' 'r' 't' 'i' 'n' 'g' ' ' 'x' 'e' 'r' 'o' )
 	for i in "${text[@]}";do
 		printf " ${r} ${i}"
 		sleep .1
@@ -286,10 +284,10 @@ banner(){
 	printf "\n ${r}"
 	printf "
 	        
-       ╦═╗╔═╗╦  ╦╔═╗╔╗╔╔═╗
-       ╠╦╝╠═╣╚╗╔╝╠═╣║║║╠═╣ \e[0;1m MADE BY PRINCE
-       ╩╚═╩ ╩ ╚╝ ╩ ╩╝╚╝╩ ╩  V3.0.0\e[32;1m 
-       Instagram : https://tinyurl.com/7fp4c26y                                              
+       
+        \e[0;1m XERO, MADE BY PRINCE
+        V1\e[32;1m 
+                                                   
 
 "
 }
