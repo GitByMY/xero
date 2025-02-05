@@ -9,7 +9,7 @@
 
 
 ```
-  cloudflare link forwoding 
+  Phishing using Cloudflare Link Forwarding 
 ```
  
 *`git clone https://github.com/GitByMY/xero.git`
